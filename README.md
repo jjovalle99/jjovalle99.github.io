@@ -1,10 +1,45 @@
 #  AI Engineer | Data Scientist
 
-#### Technical Skills: Python, SQL, AWS, GCP, Snowflake, Docker.
+##  Contact Information
+|  |                  |
+|--------|-----------------------------|
+| ☎️      | (+57) 313 259 3396            |
+| 📧      | jj.ovalle@uniandes.edu.co   |
+| ![Linkedin](https://i.stack.imgur.com/gVE0j.png)      | https://www.linkedin.com/in/jjmov/   |
+
+## Technical Skills: Python, SQL. AWS. GCP, Snowflake, Docker
 
 ## Education							       		
 - M.S., Data Analytics Intelligence	| Universidad de los Andes (_Aug 2024_)	 			        		
 - B.S., Economics | Universidad de los Andes (_Nov 2020_)
+
+## Work Experience
+**Senior Data Scientist @ Escala24x7 (_October 2023 - Present_)**
+- Developed a Proof of Concept (POC) for Allianz Argentina, utilizing XGBoost in AWS SageMaker to create a predictive model for estimating the number of insurance theft claims
+- Implemented an unsupervised machine learning solution on AWS SageMaker to identify high-risk customers, enhancing the efficiency and accuracy of risk assessment
+- Led office hours for the Diners Ecuador team, overseeing the Proof of Concept for migrating their machine learning models to the AWS cloud, facilitating a seamless integration and enhancing the team's cloud competencies
+
+**Mid Data Scientist @ Habi (_July 2023 - October 2023_)**
+- Designed a prioritization algorithm for Habicredit that streamlined credit legalization, resulting in a 15 working-day reduction in average legalization time. Swiftly adopted across multiple departments
+- Created a predictive model for the "Bolsa" phase to gauge credit conversion likelihood, which was integral in shaping conversion-based prioritization strategies
+
+**Data Scientist @ Interpublic Group (IPG) – Kinesso (_March 2021 - April 2022_)**
+- During my tenure, I advanced to the position of Senior Data Analyst and subsequently assumed a dual role as a Data Scientist. My technical proficiency was recognized, and I was ultimately promoted to a full-time Data Scientist position
+- Collaborated on the construction of Math Engine application leveraging AWS services to train models in a more efficient
+way and removing common bottlenecks
+- Participated in different pitches for LATAM market for clients like Coca-Cola and Subway (Lookalike modelling)
+- Learned basic management of teams
+- Successfully performed shadowing processes for new analyst employees
+- Trained both supervised and non-supervised models to successfully locate high value audiences for clients like BMW,
+CVS, ALDI, among others
+- Automatized various process at the company resulting in time-saving tools for other analysts
+- Became one of the global points of reference inside the company in technical skills for audience work
+
+**Data Analyst @ AXA Colpatria (_August 2020 - March 2021_)**
+- Restructured different sources of relevant information stored in various vulnerable Excel files
+- Produced dashboards from scratch that were rapidly adopted by other analysts to monitor daily tasks of the company
+- Collaborated in the reduction of the average cost of the company in 2020 through the selection of the most cost-efficient
+prepaid medicine services suppliers
 
 ## Projects
 ### [Deploying Mistral7B for Text-to-SQL Tasks](https://github.com/jjovalle99/7b-SQLMasterApp)
