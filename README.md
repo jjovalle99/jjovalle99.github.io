@@ -1,18 +1,38 @@
-# Data Scientist | AI Engineer
+#  AI Engineer | Data Scientist
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, Docker.
+#### Technical Skills: Python, SQL, AWS, GCP, Snowflake, Docker.
 
 ## Education							       		
 - M.S., Data Analytics Intelligence	| Universidad de los Andes (_Aug 2024_)	 			        		
 - B.S., Economics | Universidad de los Andes (_Nov 2020_)
 
 ## Projects
-### Data-Driven EEG Band Discovery with Decision Trees
-[Publication](https://www.mdpi.com/1424-8220/22/8/3048)
+### [Deploying Mistral7B for Text-to-SQL Tasks](https://github.com/jjovalle99/7b-SQLMasterApp)
+**Relevant Technologies:** *AWS SageMaker, LLamaIndex, LangChain, Streamlit*
 
-Developed objective strategy for discovering optimal EEG bands based on signal power spectra using **Python**. This data-driven approach led to better characterization of the underlying power spectrum by identifying bands that outperformed the more commonly used band boundaries by a factor of two. The proposed method provides a fully automated and flexible approach to capturing key signal components and possibly discovering new indices of brain activity.
+[Application Demo](http://ec2-3-91-221-46.compute-1.amazonaws.com:7860/)
 
-![EEG Band Discovery](/assets/img/eeg_band_discovery.jpeg)
+Deployed Mistral7B into a practical application, leading to the creation of 7BSQL Master. This demo app, developed using AWS SageMaker, LLamaIndex, and Streamlit, showcases the ability to seamlessly transform natural language questions into SQL queries. Hosted on AWS, 7BSQL Master provides an intuitive platform for users to leverage the sophisticated NL2SQL capabilities of Mistral7B, demonstrating the practical application and deployment of fine-tuned AI models in a user-friendly interface.
+
+![app](/assets/7bsqlmaster.gif)
+
+### [Finetuning Large Language Models for Text-to-SQL Conversion](https://github.com/jjovalle99/7b-SQLMaster-FineTune)
+**Relevant Technologies:** *HuggingFace, LangChain, LangSmith, Weights&Biases*
+
+Fine-tuned four large language models—Gemma, Mistral, DeciLM, and LLama2, in their 7 billion parameters version, for the task of generating SQL queries from natural language. This project aimed to enable these models to accurately interpret user intent and output corresponding SQL queries. The fine-tuning process employed **LoRA (Low-Rank Adaptation)** for efficient model parameter tuning. Performance monitoring and evaluation were facilitated by Weights & Biases and LangSmith.
+
+### [Deploying a Retrieval-Augmented Generation Application](https://github.com/jjovalle99/DocuQuery2)
+**Relevant Technologies:** *LangChain, Pinecone, Weights&Biases, Chainlit*
+
+[Application Demo](https://huggingface.co/spaces/jjovalle99/DocuQuery2)
+
+Developed a Retrieval-Augmented Generation (RAG) application that enables users to interact with PDFs and text files, facilitating conversational 'chatting' with documents. This application leverages Pinecone for its vector storage capabilities, ensuring efficient information retrieval that significantly enhances user experience. The app's workflow is orchestrated using LangChain, allowing for seamless integration of various AI components. To ensure continuous improvement and a deeper understanding of user interactions, Weights and Biases was employed for the tracking of model interactions and performance metrics. The user interface, crafted with Chainlit, provides an intuitive and easy environment for users to effortlessly navigate and converse with their documents
+
+### [Extracting Business Insights from Amazon Reviews Using NLP]()
+**Relevant Technologies:** *HuggingFace, BigQuery, HDBSCAN, UMAP*
+
+Developed a comprehensive NLP project focused on extracting actionable business insights from Amazon reviews of video games. Initially, the sentiment of each review was analyzed to identify negative feedback, utilizing a BERT based model. Following this, an embedding model was applied to transform the reviews into embeddings, facilitating the nuanced understanding of customer opinions beyond mere positive or negative sentiment. Leveraging UMAP for dimensionality reduction and HDBSCAN for clustering, the project effectively grouped reviews into distinct clusters, enabling a focused analysis on specific aspects of customer dissatisfaction. 
+
 
 ## Work Experience
 **Data Scientist @ Toyota Financial Services (_June 2022 - Present_)**
