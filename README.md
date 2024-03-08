@@ -30,10 +30,10 @@ Fine-tuned four large language models—Gemma, Mistral, DeciLM, and LLama2, in t
 [Application Demo](https://huggingface.co/spaces/jjovalle99/DocuQuery2)
 
 Developed a Retrieval-Augmented Generation (RAG) application that enables users to interact with PDFs and text files, facilitating conversational 'chatting' with documents. This application leverages Pinecone for its vector storage capabilities, ensuring efficient information retrieval that significantly enhances user experience. The app's workflow is orchestrated using LangChain, allowing for seamless integration of various AI components. To ensure continuous improvement and a deeper understanding of user interactions, Weights and Biases was employed for the tracking of model interactions and performance metrics. The user interface, crafted with Chainlit, provides an intuitive and easy environment for users to effortlessly navigate and converse with their documents
-<!-- 
-![results3](/assets/clusters.png) -->
 
-### [Extracting Business Insights from Amazon Reviews Using NLP]()
+![results3](/assets/docuquery.gif)
+
+### [Extracting Business Insights from Amazon Reviews Using NLP](https://github.com/jjovalle99/AmazonNLP)
 **Relevant Technologies:** *HuggingFace, BigQuery, HDBSCAN, UMAP*
 
 Developed a comprehensive NLP project focused on extracting actionable business insights from Amazon reviews of video games. Initially, the sentiment of each review was analyzed to identify negative feedback, utilizing a BERT based model. Following this, an embedding model was applied to transform the reviews into embeddings, facilitating the nuanced understanding of customer opinions beyond mere positive or negative sentiment. Leveraging UMAP for dimensionality reduction and HDBSCAN for clustering, the project effectively grouped reviews into distinct clusters, enabling a focused analysis on specific aspects of customer dissatisfaction. 
