@@ -9,6 +9,19 @@
 - B.S., Economics | Universidad de los Andes (_Nov 2020_)
 
 ## Projects
+### [Colombian Law Agent](https://github.com/jjovalle99/colombian-law-agent)
+**Relevant Technologies:** *Qdrant Vector Database, Cohere Reranker, LangChain, LangGraph, Streamlit, Modal*
+
+[Application Demo](https://jjovalle99--ui-colombia-law-agent-run.modal.run/)
+
+The Colombian Law Agent is an agentic tool designed to simplify the way we interact with legal documents and laws in Colombia. At its core, this project is about making law accessible. Using web scraping techniques, I've gathered up-to-date information straight from official sources, because sometimes the latest laws aren’t available in a convenient format.
+
+With the power of vector databases and AI, the Colombian Law Agent can quickly find and retrieve the exact legal information you need. Imagine asking a question about a specific law and getting a precise answer in seconds – that’s what this tool does. It’s built for everyone, from legal professionals to everyday citizens, ensuring that understanding Colombian law is as easy as asking a question.
+
+The app isn’t just smart; it’s also user-friendly. A straightforward UI means you don’t need to be a tech wizard to use it. Whether you’re doing in-depth legal research or just curious about a law, the Colombian Law Agent may be your go-to resource, streamlining legal inquiries with technology.
+
+![!results](https://github.com/jjovalle99/colombian-law-agent/blob/4020a42f5aeead561b0e8a8797538764c2977209/assets/flow.png)
+
 ### [Deploying Mistral7B for Text-to-SQL Tasks](https://github.com/jjovalle99/7b-SQLMasterApp)
 **Relevant Technologies:** *AWS SageMaker, LLamaIndex, LangChain, Streamlit*
 
